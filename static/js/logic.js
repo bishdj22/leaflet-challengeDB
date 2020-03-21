@@ -45,19 +45,19 @@ function chooseColor(mag) {
   switch(true) {
       case (0 <= mag &&  mag < 2.5):
         return "green";
-        // break;
+        
       case (2.5 <= mag &&  mag <= 3.5):
         return "gold";
-        // break;
+        
       case (3.5 <= mag &&  mag <= 5.0):
         return "darkorange";
-        // break;
+        
       case (5.0 <= mag &&  mag <= 15.0):
         return "red";
-        // break;
+        
       default:
         return "blue";
-        // break;
+        
   }
 }
 
